@@ -33,7 +33,7 @@ YamlLoader.add_multi_constructor(
 
 def yaml_load(source: IO | str) -> dict[str, Any]:
     """Return dict of source YAML file using loader, recursively deep merging inherited parent."""
-    result = yaml.load(source, Loader=YamlLoader)
+    result = yaml.load(source, Loader=YamlLoader)  # noqa: S506
     if result is None:
         return {}
     if (
