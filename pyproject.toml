@@ -20,17 +20,17 @@ classifiers = [
     "Operating System :: OS Independent",
     "Programming Language :: Python",
     # Begin Python versions
-    "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
     # End Python versions
     "Topic :: Software Development :: Documentation",
     "Typing :: Typed",
 ]
 dynamic = ["version"]
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 dependencies = [
     "importlib-metadata >=4.3; python_version < '3.10'",
     "mergedeep >=1.3.4",

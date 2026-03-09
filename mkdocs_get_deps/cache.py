@@ -6,7 +6,7 @@ import logging
 import os
 import random
 import urllib.request
-from typing import Callable
+from collections.abc import Callable
 
 import platformdirs
 
