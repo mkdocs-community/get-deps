@@ -21,7 +21,7 @@ parser.add_argument(
     "-p",
     "--projects-file",
     help="URL or local path of the registry file that declares all known MkDocs-related projects.",
-    default="https://raw.githubusercontent.com/mkdocs/catalog/main/projects.yaml",
+    default="https://raw.githubusercontent.com/mkdocs-community/catalog/main/projects.yaml",
 )
 
 

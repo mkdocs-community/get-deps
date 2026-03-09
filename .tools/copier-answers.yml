@@ -7,6 +7,6 @@ project_name: mkdocs-get-deps
 pytest: true
 python_distribution_name: mkdocs-get-deps
 python_source_path: mkdocs_get_deps
-repository_name: mkdocs/get-deps
+repository_name: mkdocs-community/get-deps
 script_test: false
 

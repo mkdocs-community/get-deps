@@ -3,8 +3,8 @@
 **An extra command for [MkDocs][] that infers required PyPI packages from `plugins` in mkdocs.yml.**
 
 [![PyPI](https://img.shields.io/pypi/v/mkdocs-get-deps)](https://pypi.org/project/mkdocs-get-deps/)
-[![License](https://img.shields.io/github/license/mkdocs/get-deps)](https://github.com/mkdocs/get-deps/blob/master/LICENSE.md)
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/mkdocs/get-deps/ci.yml.svg)](https://github.com/mkdocs/get-deps/actions?query=event%3Apush+branch%3Amaster)
+[![License](https://img.shields.io/github/license/mkdocs-community/get-deps)](https://github.com/mkdocs-community/get-deps/blob/master/LICENSE.md)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/mkdocs-community/get-deps/ci.yml.svg)](https://github.com/mkdocs-community/get-deps/actions?query=event%3Apush+branch%3Amaster)
 
 <table>
 <tr><td>Installation:</td><td>Alternatively through MkDocs itself:</td></tr>
@@ -64,7 +64,7 @@ The command allows overriding which config file is used (instead of `mkdocs.yml`
 
 ## MkDocs' official catalog of plugins
 
-Check out <https://github.com/mkdocs/catalog> and add all your general-purpose plugins, themes and extensions there, so that they can be looked up through `mkdocs get-deps`.
+Check out <https://github.com/mkdocs-community/catalog> and add all your general-purpose plugins, themes and extensions there, so that they can be looked up through `mkdocs get-deps`.
 
 [MkDocs]: https://www.mkdocs.org/
 [`mkdocs.yml`]: https://www.mkdocs.org/user-guide/configuration/

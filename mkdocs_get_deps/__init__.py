@@ -20,7 +20,9 @@ from . import cache, yaml_util
 log = logging.getLogger(f"mkdocs.{__name__}")
 
 
-DEFAULT_PROJECTS_FILE = "https://raw.githubusercontent.com/mkdocs/catalog/main/projects.yaml"
+DEFAULT_PROJECTS_FILE = (
+    "https://raw.githubusercontent.com/mkdocs-community/catalog/main/projects.yaml"
+)
 
 BUILTIN_THEMES = {"mkdocs", "readthedocs"}
 BUILTIN_PLUGINS = {"search"}

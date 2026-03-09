@@ -39,9 +39,9 @@ dependencies = [
 ]
 
 [project.urls]
-Source = "https://github.com/mkdocs/get-deps"
-Issues = "https://github.com/mkdocs/get-deps/issues"
-History = "https://github.com/mkdocs/get-deps/releases"
+Source = "https://github.com/mkdocs-community/get-deps"
+Issues = "https://github.com/mkdocs-community/get-deps/issues"
+History = "https://github.com/mkdocs-community/get-deps/releases"
 
 [project.scripts]
 mkdocs-get-deps = "mkdocs_get_deps.__main__:cli"
